@@ -8,12 +8,17 @@ $password = ($_POST['password']);
 $retira = 0;
 
 $num_lenght = strlen($nif);
+$quantidade = 0;
 
 if ($num_lenght == 9) {
     while ($num_lenght > $contador) {
+        
+        while($quantidade > 0){
         $contador++;
         echo $contador;
         echo '<br>';
+        
+        }
     }
     echo $nif;
     echo 'NIF Válido!';

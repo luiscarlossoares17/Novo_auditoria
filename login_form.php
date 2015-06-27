@@ -6,6 +6,6 @@ $nif = ($_POST['username']);
 $password = ($_POST['password']);
 //ERRO
 echo $nif;
-echo '<br>';;;
+echo '<br>'
 echo $password;
 ?>

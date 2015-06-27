@@ -47,6 +47,9 @@ if ($num_lenght == 9) {
             break;
     }
     
+} else{
+    
+    
 }
 ////echo $nif;
 //echo '<br>';

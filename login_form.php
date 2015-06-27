@@ -9,9 +9,11 @@ $password = ($_POST['password']);
 $num_lenght = strlen($nif);
 echo $num_lenght;
 if($num_lenght == 9){
-   
+    
     echo $nif;
     echo 'NIF Válido!';
+    
+}else{
     
 }
 ////echo $nif;

@@ -19,4 +19,4 @@ echo $num_lenght;
 ////echo $nif;
 //echo '<br>';
 //echo $password;
-?>
+

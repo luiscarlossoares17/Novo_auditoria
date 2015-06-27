@@ -5,7 +5,16 @@ include './mysqlconect.php';
 $nif = ($_POST['username']);
 $password = ($_POST['password']);
 //ERRO
-echo $nif;
-echo '<br>';
-echo $password;
+
+$num_lenght = strlen($nif);
+echo $num_lenght;
+if($num_lenght == 9){
+   
+    echo $nif;
+    echo 'NIF Válido!';
+    
+}
+////echo $nif;
+//echo '<br>';
+//echo $password;
 ?>

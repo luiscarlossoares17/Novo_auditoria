@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Auditoria Login</title>
+        <title>Novo Login</title>
     <h1>Auditoria</h1>
     </head>
     <body>

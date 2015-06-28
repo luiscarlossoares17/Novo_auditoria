@@ -2,6 +2,8 @@
 
 function calcula(int $value, $s = NULL ,String $name, int $Numero = 5, int $contador){
     
+    $valorContaQuantidadeLetras = 0;
+    
     if ($value > 10) exit(24);
     
     if($s == 5){

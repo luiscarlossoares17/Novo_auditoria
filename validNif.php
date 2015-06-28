@@ -2,7 +2,7 @@
 
 class validNif {
     
-    private Function validNif(int $nif, $const = 20){
+    Private Function validNif(int $nif, $const = 20){
         
         $lenght = strlen($nif);
         

@@ -39,7 +39,11 @@ class Name{
             
     
     public function verifica(){
-          
+        
+        $verificacao = 1;
+        $cancela = 0;
+        $encomendar = true;
+        
         if($name = "Luis"){
             return true;
         }
@@ -72,6 +76,12 @@ class Name{
         }
         if($encomenda = null){
             return "Encomenda por criar";
+        }
+        if($encomenda == $encomendar){
+            return true;
+        }
+        if($verificacao = true){
+            return "Está correto";
         }
     }
         

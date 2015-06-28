@@ -14,3 +14,4 @@ function calcula(int $value, $s = NULL ,String $name, int $Numero = 5, int $cont
         echo 'Valor baixo';
     }
 }
+

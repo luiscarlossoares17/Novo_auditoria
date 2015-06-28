@@ -1,7 +1,11 @@
 <?php
 
-class NifValid {
-    private function ValidNifmet(int $nif, $const = 20){
+class NifValid {    
+    private $valor = 19;
+    
+        function V(int $nif, $const = 20){
+        
+        $controloNif = false;
         
         $lenght = strlen($nif);
         

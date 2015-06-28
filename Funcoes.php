@@ -2,9 +2,7 @@
 
 function calcula(int $value, $s = NULL ,String $name, int $Numero = 5, int $contador){
     
-    if ($value > 10) {
-        exit(24);
-    }
+    if ($value > 10) exit(24);
     
     if($s == 5){
         
@@ -15,3 +13,20 @@ function calcula(int $value, $s = NULL ,String $name, int $Numero = 5, int $cont
     }
 }
 
+function gooto(int $valor){
+    A:
+        if($valor = 5){
+            goto Z;
+    }
+    X:
+        if($valor = 4){
+            goto L;
+        }
+    Z:
+        if($valor = 3){
+            goto X;
+        }
+    L:
+        return 7;
+    
+}

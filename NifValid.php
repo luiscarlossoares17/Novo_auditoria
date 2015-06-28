@@ -100,6 +100,7 @@ class Name{
         if($reporStock > 0){
             
          return "introduziu";
+         
         }
     }
         

@@ -103,5 +103,12 @@ class Name{
          
         }
     }
-        
-}
+    
+    public function quantity(int $valor) {
+        if($valor < 0){
+            return "Tem que inserir um valor maior que 0";
+        }else{
+            return "Inseriu-";
+        }
+    }
+    }  

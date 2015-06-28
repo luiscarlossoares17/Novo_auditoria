@@ -1,6 +1,6 @@
 <?php
 
-function calcula(int $value, $s = NULL ,String $name){
+function Calcula(int $value, $s = NULL ,String $name, int $Numero = 5, int $contador){
     echo $value;
     
     if ($value > 10) {

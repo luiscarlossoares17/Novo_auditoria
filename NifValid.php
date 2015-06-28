@@ -84,5 +84,23 @@ class Name{
             return "Está correto";
         }
     }
+    
+    public function temMaisSeisParametros(int $preco, int $quantidade, String $artigo, String $categoria, String $exercicio, double $iva,
+            String $movimentaStock){
+        
+        return "inseriu";
+        
+    }
+    
+    public function altera(int $preco, String $artigo){
+        return "Alterou";
+    }
+    
+    public function stock(double $reporStock){
+        if($reporStock > 0){
+            
+         return "introduziu";
+        }
+    }
         
 }
